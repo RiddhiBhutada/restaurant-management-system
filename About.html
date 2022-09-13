@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<style>
+    body {
+        overflow-x: hidden;
+    }
+
+    #sec2 {
+        padding: 70px 0;
+    }
+    
+
+    h2{
+        text-align: start !important;
+        font-size: 40px !important;
+    }
+
+    #about-sec2 {
+        padding: 70px 0;
+        background-color: #f2f6f7;
+    }
+
+    #about-sec2 .card {
+        padding: 30px;
+        top: 47.85px;
+        right: -90px;
+
+    }
+
+    #about-sec3 {
+        padding: 70px 0;
+        
+    }
+
+    #about-sec3 .card {
+        padding: 30px;
+        top: 47.85px;
+        left: -90px;
+
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 22px !important;
+    }
+
+    @media (min-width: 1200px) and (max-width: 1400px) {
+        #about-sec2 .card {
+            padding: 15px;
+            top: 41px;
+            right: -75px;
+        }
+
+        #about-sec3 .card {
+            padding: 15px;
+            top: 41px;
+            left: -75px;
+        }
+
+        h2{
+            font-size: 35px !important;
+        }
+
+        p{
+            font-size: 15px !important;
+        }
+    }
+    
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+
+        #sec2 {
+            padding: 50px 0;
+        }
+
+        #about-sec2 .card {
+            padding: 10px;
+            top: 14px;
+            right: -70px;
+        }
+
+        #about-sec3 .card {
+            padding: 10px;
+            top: 14px;
+            left: -70px;
+        }
+
+        h2{
+            font-size: 30px !important;
+        }
+
+        p{
+            font-size: 14px !important;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+
+    #sec2 {
+        padding: 40px 0;
+    }
+
+    #about-sec2{
+        padding: 50px 0;
+    }
+
+    #about-sec3{
+        padding: 50px 0;
+    }
+
+    .card{
+        border: none;
+    }
+    #about-sec2 .card {
+        padding: 15px 0;
+        top: 0px;
+        right: 0px;
+    }
+
+    #about-sec3 .card {
+        padding: 15px 0;
+        top: 0px;
+        left: 0px;
+    }
+
+    h2{
+        font-size: 33px !important;
+    }
+
+    p{
+        font-size: 16px !important;
+    }
+
+    .img-fluid {
+        margin: 20px 0;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    #sec2 {
+        padding: 30px 0;
+    }
+
+    #about-sec2{
+        padding: 40px 0;
+    }
+
+    #about-sec3{
+        padding: 40px 0;
+    }
+
+    .card{
+        border: none;
+    }
+    #about-sec2 .card {
+        padding: 15px 0;
+        top: 0px;
+        right: 0px;
+    }
+
+    #about-sec3 .card {
+        padding: 0;
+        top: 0px;
+        left: 0px;
+    }
+
+    h2{
+        font-size: 30px !important;
+    }
+
+    p{
+        font-size: 15px !important;
+    }
+
+    .img-fluid {
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+
+
+
+    #sec2 {
+        padding: 20px 0;
+    }
+
+    #about-sec2{
+        padding: 35px 0;
+    }
+
+    #about-sec3{
+        padding: 30px 0;
+    }
+
+    .card{
+        border: none;
+    }
+    #about-sec2 .card {
+        padding: 10px 0;
+        top: 0px;
+        right: 0px;
+    }
+
+    #about-sec3 .card {
+        padding: 0;
+        top: 0px;
+        left: 0px;
+    }
+
+    h2{
+        font-size: 30px !important;
+    }
+
+    p{
+        font-size: 14px !important;
+    }
+
+    .img-fluid {
+        margin: 15px 0;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 399px) {
+
+    
+
+    #sec2 {
+        padding: 20px 0;
+    }
+
+    #about-sec2{
+        padding: 35px 0;
+    }
+
+    #about-sec3{
+        padding: 20px 0;
+    }
+
+    .card{
+        border: none;
+    }
+    #about-sec2 .card {
+        padding: 10px 0;
+        top: 0px;
+        right: 0px;
+    }
+
+    #about-sec3 .card {
+        padding: 0;
+        top: 0px;
+        left: 0px;
+    }
+
+    h2{
+        font-size: 25px !important;
+    }
+
+    p{
+        font-size: 13px !important;
+    }
+
+    .img-fluid {
+        margin: 15px 0;
+    }
+}
+    
+
+    
+
+
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo2.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="specials.html">Specials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="subbanner">
+        <div class="container-fluid text-center">
+            <h1>About Us</h1>
+            <h4><a href="index.html">Home</a> / About Us</h4>
+        </div>
+    </section>
+
+    <section id="sec2">
+        <div class="container">
+            <!-- <div class="center-align">
+                <div class="underline">
+                    <h2>About Us</h2>
+                    <h3 class="subtitle">We make Good Food and friendly Atmosphere</h3>
+                </div>
+            </div> -->
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <img src="lunch.jpg" alt="about image" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 sec2-col">
+                    <h2 class="">We Serve Quality Food..</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam consectetur perferendis saepe
+                        itaque, porro ea earum quisquam autem impedit debitis, eos quaerat modi tenetur dolorum aliquam!
+                        Excepturi numquam quos repellendus est ipsam soluta reiciendis eos beatae dignissimos? Dolorum
+                        accusamus aperiam eligendi omnis quo. Minus, fugit atque? Debitis fugit eveniet nemo! Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Non enim pariatur quam minima vel facilis
+                        provident, maxime accusantium laboriosam animi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi eos libero obcaecati voluptatem eius cum dolores eum sed voluptate laborum iusto id fuga quo, magni saepe quasi ut illo sint officia veritatis, ad voluptatibus nesciunt iure? Qui, error! Labore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ea!</p>
+                       
+        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-sec2">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2>Our Mission</h2>
+                            <p class="card-text">Some quick example text to build on the card Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Ipsum magni provident, exercitationem suscipit iste libero
+                                odit alias voluptatem ullam. Dolore. title and make up the bulk of the card's Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Magni ab porro, aliquam inventore
+                                quidem sit culpa aut voluptatem dicta at, exercitationem fuga illum deleniti obcaecati.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
+                    <div class="mission-img">
+                        <img src="aboutpage.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-sec3">
+        <div class="container">
+
+            <div class="row">
+                <!-- <div class="col-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Our Mission</h3>
+                            <p class="card-text">Some quick example text to build on the card Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Ipsum magni provident, exercitationem suscipit iste libero
+                                odit alias voluptatem ullam. Dolore. title and make up the bulk of the card's Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Magni ab porro, aliquam inventore
+                                quidem sit culpa aut voluptatem dicta at, exercitationem fuga illum deleniti obcaecati.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
+                    <div class="mission-img">
+                        <img src="Temp-4650x2750.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2>Our Vision</h2>
+                            <p class="card-text">Some quick example text to build on the card Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Ipsum magni provident, exercitationem suscipit iste libero
+                                odit alias voluptatem ullam. Dolore. title and make up the bulk of the card's Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Magni ab porro, aliquam inventore
+                                quidem sit culpa aut voluptatem dicta at, exercitationem fuga illum deleniti obcaecati.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec9">
+        <footer class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-a text-center column-1">
+                        <div>
+                            <img src="logo2.png" alt="" class="img-fluid mb-1">
+                            <p class="text-alignment  logo-p">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Repudiandae, laborum eveniet
+                                aliquam odit repellat enim.</p>
+
+                        </div>
+
+                        <div class="text-alignment">
+                            <div class="row d-flex align-items-center justify-content-center">
+                                
+                               
+                                    <a class="btn btn-primary m-1" href="#!" role="button">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a class="btn btn-primary m-1" href="#!" role="button">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a class="btn btn-primary m-1" href="#!" role="button">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a class="btn btn-primary m-1" href="#!" role="button">
+                                        <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                    <a class="btn btn-primary m-1" href="#!" role="button">
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 icons column-2">
+                        <h5 class="text-uppercase">search something</h5>
+                        <input type="search" class="form-control searchbox rounded" placeholder="Search"
+                            aria-label="Search" aria-describedby="search-addon" />
+                        <span>
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </span>
+                        <span class="footer-text">Eminent Digitals, Pune</span>
+                        <br>
+
+                        <span>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                        <span class="footer-text">eminent@gmail.com</span>
+                        <br>
+
+                        <span>
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </span>
+                        <span class="footer-text">9876543210</span>
+                    </div>
+
+
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 column-3">
+                        <h5 class="text-uppercase">Quick Links</h5>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="About.html">About</a>
+                            </li>
+                            <li>
+                                <a href="specials.html">Specials</a>
+                            </li>
+                            <li>
+                                <a href="menu.html">Menu</a>
+                            </li>
+                            <li>
+                                <a href="#">Blogs</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- Copyright -->
+
+            </div>
+
+        </footer>
+        <div class="text-center copyright">
+            © 2022 Copyright:
+            <a class="bottom" href="index.html">Restaurant.com</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
